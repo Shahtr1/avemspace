@@ -7,3 +7,8 @@ window.onscroll = () => {
   const nav = document.querySelector('#navbar');
   if(this.scrollY <= 300) nav.className = ''; else nav.className = 'scroll';
 };
+
+window.onscroll = () => {
+  const nav = document.querySelector('#navbar1');
+  if(this.scrollY <= 100) nav.className = ''; else nav.className = 'scroll';
+};
